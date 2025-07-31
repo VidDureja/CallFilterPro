@@ -29,9 +29,22 @@
 		E83FA6792E37E64F00E59990 /* CallFilterProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallFilterProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8FB378F2E3809F000C669AA /* Exceptions for "CallFilterPro" folder in "CallFilterPro" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E83FA6612E37E64D00E59990 /* CallFilterPro */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E83FA6642E37E64D00E59990 /* CallFilterPro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8FB378F2E3809F000C669AA /* Exceptions for "CallFilterPro" folder in "CallFilterPro" target */,
+			);
 			path = CallFilterPro;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,9 @@
 				DEVELOPMENT_TEAM = 2G43Y4J7RY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Call Filter Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = 2G43Y4J7RY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Call Filter Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
