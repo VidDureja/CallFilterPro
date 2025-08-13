@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8F4A9BD2E47C99500560A36 /* UniformTypeIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F4A9BC2E47C99500560A36 /* UniformTypeIdentifiers.framework */; };
+		E8F4A9C92E47C99500560A36 /* CallFilterProAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E8F4A9BA2E47C99500560A36 /* CallFilterProAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E83FA6702E37E64F00E59990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E83FA65A2E37E64D00E59990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E83FA6612E37E64D00E59990;
+			remoteInfo = CallFilterPro;
+		};
+		E83FA67A2E37E64F00E59990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E83FA65A2E37E64D00E59990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E83FA6612E37E64D00E59990;
+			remoteInfo = CallFilterPro;
+		};
+		E8F4A9C72E47C99500560A36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E83FA65A2E37E64D00E59990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8F4A9B92E47C99500560A36;
+			remoteInfo = CallFilterProAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8F4A9CE2E47C99500560A36 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E8F4A9C92E47C99500560A36 /* CallFilterProAction.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E83FA6622E37E64D00E59990 /* CallFilterPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallFilterPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83FA66F2E37E64F00E59990 /* CallFilterProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallFilterProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83FA6792E37E64F00E59990 /* CallFilterProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallFilterProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F4A9BA2E47C99500560A36 /* CallFilterProAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallFilterProAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F4A9BC2E47C99500560A36 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E8669B492E4B9F5B0048D9A8 /* Exceptions for "CallFilterPro" folder in "CallFilterPro" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E83FA6612E37E64D00E59990 /* CallFilterPro */;
+		};
+		E8669B4B2E4BA2FE0048D9A8 /* Exceptions for "CallFilterPro" folder in "CallFilterProAction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SpamClassifier.mlpackage,
+			);
+			target = E8F4A9B92E47C99500560A36 /* CallFilterProAction */;
+		};
+		E8F4A9CD2E47C99500560A36 /* Exceptions for "CallFilterProAction" folder in "CallFilterProAction" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E8F4A9B92E47C99500560A36 /* CallFilterProAction */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E83FA6642E37E64D00E59990 /* CallFilterPro */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8669B492E4B9F5B0048D9A8 /* Exceptions for "CallFilterPro" folder in "CallFilterPro" target */,
+				E8669B4B2E4BA2FE0048D9A8 /* Exceptions for "CallFilterPro" folder in "CallFilterProAction" target */,
+			);
+			path = CallFilterPro;
+			sourceTree = "<group>";
+		};
+		E83FA6722E37E64F00E59990 /* CallFilterProTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CallFilterProTests;
+			sourceTree = "<group>";
+		};
+		E83FA67C2E37E64F00E59990 /* CallFilterProUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CallFilterProUITests;
+			sourceTree = "<group>";
+		};
+		E8F4A9BE2E47C99500560A36 /* CallFilterProAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E8F4A9CD2E47C99500560A36 /* Exceptions for "CallFilterProAction" folder in "CallFilterProAction" target */,
+			);
+			path = CallFilterProAction;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83FA65F2E37E64D00E59990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA66C2E37E64F00E59990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA6762E37E64F00E59990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F4A9B72E47C99500560A36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F4A9BD2E47C99500560A36 /* UniformTypeIdentifiers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E83FA6592E37E64D00E59990 = {
+			isa = PBXGroup;
+			children = (
+				E83FA6642E37E64D00E59990 /* CallFilterPro */,
+				E83FA6722E37E64F00E59990 /* CallFilterProTests */,
+				E83FA67C2E37E64F00E59990 /* CallFilterProUITests */,
+				E8F4A9BE2E47C99500560A36 /* CallFilterProAction */,
+				E8F4A9BB2E47C99500560A36 /* Frameworks */,
+				E83FA6632E37E64D00E59990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E83FA6632E37E64D00E59990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83FA6622E37E64D00E59990 /* CallFilterPro.app */,
+				E83FA66F2E37E64F00E59990 /* CallFilterProTests.xctest */,
+				E83FA6792E37E64F00E59990 /* CallFilterProUITests.xctest */,
+				E8F4A9BA2E47C99500560A36 /* CallFilterProAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F4A9BB2E47C99500560A36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F4A9BC2E47C99500560A36 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83FA6612E37E64D00E59990 /* CallFilterPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83FA6832E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterPro" */;
+			buildPhases = (
+				E83FA65E2E37E64D00E59990 /* Sources */,
+				E83FA65F2E37E64D00E59990 /* Frameworks */,
+				E83FA6602E37E64D00E59990 /* Resources */,
+				E8F4A9CE2E47C99500560A36 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F4A9C82E47C99500560A36 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E83FA6642E37E64D00E59990 /* CallFilterPro */,
+			);
+			name = CallFilterPro;
+			packageProductDependencies = (
+			);
+			productName = CallFilterPro;
+			productReference = E83FA6622E37E64D00E59990 /* CallFilterPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E83FA66E2E37E64F00E59990 /* CallFilterProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83FA6862E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterProTests" */;
+			buildPhases = (
+				E83FA66B2E37E64F00E59990 /* Sources */,
+				E83FA66C2E37E64F00E59990 /* Frameworks */,
+				E83FA66D2E37E64F00E59990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83FA6712E37E64F00E59990 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E83FA6722E37E64F00E59990 /* CallFilterProTests */,
+			);
+			name = CallFilterProTests;
+			packageProductDependencies = (
+			);
+			productName = CallFilterProTests;
+			productReference = E83FA66F2E37E64F00E59990 /* CallFilterProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E83FA6782E37E64F00E59990 /* CallFilterProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83FA6892E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterProUITests" */;
+			buildPhases = (
+				E83FA6752E37E64F00E59990 /* Sources */,
+				E83FA6762E37E64F00E59990 /* Frameworks */,
+				E83FA6772E37E64F00E59990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83FA67B2E37E64F00E59990 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E83FA67C2E37E64F00E59990 /* CallFilterProUITests */,
+			);
+			name = CallFilterProUITests;
+			packageProductDependencies = (
+			);
+			productName = CallFilterProUITests;
+			productReference = E83FA6792E37E64F00E59990 /* CallFilterProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E8F4A9B92E47C99500560A36 /* CallFilterProAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8F4A9CA2E47C99500560A36 /* Build configuration list for PBXNativeTarget "CallFilterProAction" */;
+			buildPhases = (
+				E8F4A9B62E47C99500560A36 /* Sources */,
+				E8F4A9B72E47C99500560A36 /* Frameworks */,
+				E8F4A9B82E47C99500560A36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E8F4A9BE2E47C99500560A36 /* CallFilterProAction */,
+			);
+			name = CallFilterProAction;
+			packageProductDependencies = (
+			);
+			productName = CallFilterProAction;
+			productReference = E8F4A9BA2E47C99500560A36 /* CallFilterProAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E83FA65A2E37E64D00E59990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E83FA6612E37E64D00E59990 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E83FA66E2E37E64F00E59990 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E83FA6612E37E64D00E59990;
+					};
+					E83FA6782E37E64F00E59990 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E83FA6612E37E64D00E59990;
+					};
+					E8F4A9B92E47C99500560A36 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = E83FA65D2E37E64D00E59990 /* Build configuration list for PBXProject "CallFilterPro" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E83FA6592E37E64D00E59990;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E83FA6632E37E64D00E59990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E83FA6612E37E64D00E59990 /* CallFilterPro */,
+				E83FA66E2E37E64F00E59990 /* CallFilterProTests */,
+				E83FA6782E37E64F00E59990 /* CallFilterProUITests */,
+				E8F4A9B92E47C99500560A36 /* CallFilterProAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83FA6602E37E64D00E59990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA66D2E37E64F00E59990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA6772E37E64F00E59990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F4A9B82E47C99500560A36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83FA65E2E37E64D00E59990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA66B2E37E64F00E59990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E83FA6752E37E64F00E59990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F4A9B62E47C99500560A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E83FA6712E37E64F00E59990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E83FA6612E37E64D00E59990 /* CallFilterPro */;
+			targetProxy = E83FA6702E37E64F00E59990 /* PBXContainerItemProxy */;
+		};
+		E83FA67B2E37E64F00E59990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E83FA6612E37E64D00E59990 /* CallFilterPro */;
+			targetProxy = E83FA67A2E37E64F00E59990 /* PBXContainerItemProxy */;
+		};
+		E8F4A9C82E47C99500560A36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8F4A9B92E47C99500560A36 /* CallFilterProAction */;
+			targetProxy = E8F4A9C72E47C99500560A36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E83FA6812E37E64F00E59990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E83FA6822E37E64F00E59990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E83FA6842E37E64F00E59990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CallFilterPro/CallFilterPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Call Filter Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E83FA6852E37E64F00E59990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CallFilterPro/CallFilterPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Call Filter Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E83FA6872E37E64F00E59990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallFilterPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallFilterPro";
+			};
+			name = Debug;
+		};
+		E83FA6882E37E64F00E59990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CallFilterPro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CallFilterPro";
+			};
+			name = Release;
+		};
+		E83FA68A2E37E64F00E59990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallFilterPro;
+			};
+			name = Debug;
+		};
+		E83FA68B2E37E64F00E59990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CallFilterPro;
+			};
+			name = Release;
+		};
+		E8F4A9CB2E47C99500560A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CallFilterProAction/CallFilterProAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterProAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallFilterProAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterPro.CallFilterProAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8F4A9CC2E47C99500560A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = CallFilterProAction/CallFilterProAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2G43Y4J7RY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CallFilterProAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CallFilterProAction;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusflow.CallFilterPro.CallFilterProAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83FA65D2E37E64D00E59990 /* Build configuration list for PBXProject "CallFilterPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FA6812E37E64F00E59990 /* Debug */,
+				E83FA6822E37E64F00E59990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83FA6832E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FA6842E37E64F00E59990 /* Debug */,
+				E83FA6852E37E64F00E59990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83FA6862E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FA6872E37E64F00E59990 /* Debug */,
+				E83FA6882E37E64F00E59990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83FA6892E37E64F00E59990 /* Build configuration list for PBXNativeTarget "CallFilterProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83FA68A2E37E64F00E59990 /* Debug */,
+				E83FA68B2E37E64F00E59990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8F4A9CA2E47C99500560A36 /* Build configuration list for PBXNativeTarget "CallFilterProAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F4A9CB2E47C99500560A36 /* Debug */,
+				E8F4A9CC2E47C99500560A36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E83FA65A2E37E64D00E59990 /* Project object */;
+}

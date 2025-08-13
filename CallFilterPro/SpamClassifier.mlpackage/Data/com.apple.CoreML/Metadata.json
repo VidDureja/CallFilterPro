@@ -1,0 +1,6 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "This model is a text classifier (version 1) which classifies text according to set {spam,legitimate}",
+  "MLModelAuthorKey" : "--",
+  "MLModelLicenseKey" : "--"
+}

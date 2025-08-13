@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "31E9CD06-023C-4314-AA4E-47B181D51074": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "9160A9B9-9273-46F4-8A2A-30B63D610F93": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "SpamClassifier.mlmodel",
+            "path": "com.apple.CoreML/SpamClassifier.mlmodel"
+        },
+        "B40EF0CC-969D-4EFD-B2F7-BB16B01D6513": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        }
+    },
+    "rootModelIdentifier": "9160A9B9-9273-46F4-8A2A-30B63D610F93"
+}
