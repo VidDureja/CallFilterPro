@@ -22,19 +22,17 @@
         <string>$(PRODUCT_MODULE_NAME).ActionViewController</string>
         <key>NSExtensionAttributes</key>
         <dict>
-            <!-- Accept pure text shares (we’ll also parse attachments in code) -->
+            <!-- Accept pure text shares -->
             <key>NSExtensionActivationRule</key>
             <dict>
                 <key>NSExtensionActivationSupportsText</key>
                 <true/>
-                <key>NSExtensionActivationSupportsAttachmentsWithMaxCount</key>
-                <integer>1</integer>
+                <key>NSExtensionActivationSupportsAudio</key>
+                <true/>
             </dict>
+            <key>NSExtensionActivationSupportsAttachmentsWithMaxCount</key>
+            <integer>1</integer>
         </dict>
     </dict>
-
-    <!-- Keep the same permission string here too -->
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>Used to transcribe voicemails you share to CallFilterPro.</string>
 </dict>
 </plist>
